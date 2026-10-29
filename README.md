@@ -1,16 +1,97 @@
-# React + Vite
+# Agency.ai Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern agency-style landing page built with React and Tailwind CSS. The project includes a responsive hero section, services, portfolio/work showcase, team section, contact form, newsletter block, and a working theme toggle.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive marketing landing page layout
+- Dark and light mode toggle
+- Smooth scrolling navigation
+- Services, work, team, and contact sections
+- Reusable React components
+- Tailwind-based styling
+- Vite-powered fast development and build
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite
+- Tailwind CSS
+- JavaScript
 
-## Expanding the Oxlint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+src/
+├── App.jsx
+├── assets/
+│   ├── assets.js
+│   ├── logo.svg
+│   └── ...
+├── components/
+│   ├── Navbar.jsx
+│   ├── hero.jsx
+│   ├── services.jsx
+│   ├── work.jsx
+│   ├── Team.jsx
+│   ├── Contact.jsx
+│   ├── ThemeTogglebtn.jsx
+│   └── Title.jsx
+├── index.css
+└── main.jsx
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run locally
+
+```bash
+npm run dev
+```
+
+Then open the local URL shown in the terminal, usually:
+
+```bash
+http://localhost:5173/
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+### Preview production build
+
+```bash
+npm run preview
+```
+
+## Available Scripts
+
+```bash
+npm run dev      # start development server
+npm run build    # create production build
+npm run preview  # preview built app locally
+npm run lint     # run lint checks
+```
+
+## Notes
+
+This project was designed to match a premium agency mockup with deep blue and dark theme styling. The layout is intentionally clean and conversion-focused for a landing page use case.
+
+## License
+
+This project is for demo and portfolio purposes.
+
